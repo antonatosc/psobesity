@@ -1,4 +1,4 @@
-# psobesity
+# Transcriptomic meta-analysis characterizes molecular commonalities between psoriasis and obesity
 This repository contains ource code for the 'Transcriptomic meta-analysis characterizes molecular commonalities between psoriasis and obesity' manuscript.
 We provide scripts for:
 1) RNA-seq pre-processing, including download, trimming, alignment and counts,
