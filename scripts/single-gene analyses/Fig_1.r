@@ -43,7 +43,7 @@ pathways_obs <- GSE_obesity@result
 shared_pso <- pathways_pso[pathways_pso$ID %in% pathways_obs$ID, ]
 shared_obs <- pathways_obs[pathways_obs$ID %in% pathways_pso$ID, ]
 shared_pathways <- merge(shared_psoriasis, shared_obesity, by = "Description")
-ggplot(maybe,
+ggplot(shared_pathways, #ypo
        aes(x = NES.x,
            y = NES.y,
            color = ifelse(NES.x>0 & NES.y>0, "blue", 
