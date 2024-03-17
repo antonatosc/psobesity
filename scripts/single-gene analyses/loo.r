@@ -5,7 +5,7 @@ libraries("tidyverse",
           "MetaVolcanoR",
           "ggplot2",
           "cowplot")
-setwd("/media/charis/74347B6A347B2DEC/gai_final")
+setwd("~/Psobesity/Individual_results")
 psoriasis_datasets = c("SRP145260", "SRP065812", "SRP055813", "SRP165679")
 obesity_datasets = c("SRP278883", "SRP295864", "SRP132990", "SRP268322", "SRP304398")
 psoriasis=list()
